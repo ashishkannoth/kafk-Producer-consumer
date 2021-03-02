@@ -28,9 +28,9 @@ public class Consumer {
 
 	private String bucketName = "myfirstbucket75";
 
-	private String sec_key = "EwuMZwVb1NpWdixOIw5YiVymVx28fBypIc+QsXCF";
+	private String sec_key = "";
 
-	private String access_key = "AKIAUXKSEV7PIMSFG6MV";
+	private String access_key = "";
 
 	@KafkaListener(topics = "kafka_message", groupId = "group_id")
 	public void consumedMessage(String message) {
